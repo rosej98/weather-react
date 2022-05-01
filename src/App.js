@@ -1,26 +1,27 @@
-import logo from "./logo.svg";
 import "./App.css";
+import City from "./City";
+import Forecast from "./Forecast";
+import Search from "./Search";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>HELLO</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <div className="card main">
+          <div className="card-body">
+            <Search />
+            <City city="Berlin" />
+            <Forecast />
+          </div>
+          <br />
+          <div class="footer">
+            <a href="https://github.com/rosej98/weather-react" target="_blank">
+              Open-source code
+            </a>
+            , by R J
+          </div>
+        </div>
+      </form>
     </div>
   );
 }
-
-export default App;

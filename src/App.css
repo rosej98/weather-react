@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,114 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  display: block;
+  margin-top: 60px;
+  position: relative;
+  background-color: #badde4;
+  font-family: "Montserrat", Cerebri Sans, Helvetica, Arial, sans-serif;
+}
+
+.search {
+  border: none;
+  background-color: #badde4;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+#alert {
+  background-color: red;
+  color: rgb(206, 203, 203);
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 40px;
+  position: relative;
+  float: right;
+  box-shadow: none;
+  border: 1mm ridge rgba(0, 0, 0, 0.1);
+}
+
+.a#C_Link,
+a#F_Link {
+  position: relative;
+  float: right;
+}
+
+.tempUnit .not_active {
+  cursor: default;
+  color: black;
+  text-decoration: none;
+}
+
+.tempUnit .not_active:hover {
+  text-decoration: none;
+}
+.selectedCity {
+  padding-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font: bolder;
+}
+
+h2 {
+  color: rgb(119, 119, 9);
+  font: bolder;
+}
+
+.dayIcon {
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.nxtDaysPred {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background-color: #ececec;
+  font-size: bolder;
+}
+
+.legend {
+  padding-top: 22px;
+  padding-left: 0px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  text-align: right;
+  line-height: 21px;
+  font-size: 13px;
+  font: bolder;
+}
+
+.footer {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  size: bold;
+  font-size: 10px;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.col-12 {
+  text-align: center;
 }
