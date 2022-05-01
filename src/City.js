@@ -77,7 +77,7 @@ export default function City(props) {
       </div>
       <Wind wind={10.29} />
       <Humidity humidity={54} />
-      <Visibility visibility={85} />
+      <Visibility visibility={84} />
     </div>
   );
 }
